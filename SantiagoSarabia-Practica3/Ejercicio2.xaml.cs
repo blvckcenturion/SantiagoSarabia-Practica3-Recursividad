@@ -26,8 +26,8 @@ namespace SantiagoSarabia_Practica3
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            msgView.Items.Clear();
             messageGenerator(txtMessage.Text, txtMessage.Text.Length - 1);
-
         }
 
         string messageGenerator(string initialString, int count)
@@ -39,7 +39,6 @@ namespace SantiagoSarabia_Practica3
             string message = messageGenerator(initialString, count - 1) + initialString[count];
             msgView.Items.Add(message);
             return message;
-
         }
 
     }

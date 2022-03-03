@@ -26,6 +26,7 @@ namespace SantiagoSarabia_Practica3
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            resultView.Items.Clear();
             int initialAmount, interestRate, years;
 
             bool isValidAmount = int.TryParse(txtInitialAmount.Text, out initialAmount);
@@ -34,7 +35,8 @@ namespace SantiagoSarabia_Practica3
 
             if (isValidAmount && isValidInterest && isValidYears) 
             {
-                calculateCapital(initialAmount, interestRate, years);
+               double res = calculateCapital(initialAmount, interestRate, years);
+                resultView.Items.Add("Resultado: " + res);
             }
         }
 

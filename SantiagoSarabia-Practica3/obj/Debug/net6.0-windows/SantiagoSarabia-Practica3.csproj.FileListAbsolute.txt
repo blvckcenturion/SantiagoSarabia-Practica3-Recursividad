@@ -23,3 +23,7 @@ C:\Users\Magaly-PC\source\repos\SantiagoSarabia-Practica3\SantiagoSarabia-Practi
 C:\Users\Magaly-PC\source\repos\SantiagoSarabia-Practica3\SantiagoSarabia-Practica3\obj\Debug\net6.0-windows\SantiagoSarabia-Practica3.genruntimeconfig.cache
 C:\Users\Magaly-PC\source\repos\SantiagoSarabia-Practica3\SantiagoSarabia-Practica3\obj\Debug\net6.0-windows\Ejercicio2.g.cs
 C:\Users\Magaly-PC\source\repos\SantiagoSarabia-Practica3\SantiagoSarabia-Practica3\obj\Debug\net6.0-windows\Ejercicio2.baml
+C:\Users\Magaly-PC\source\repos\SantiagoSarabia-Practica3\SantiagoSarabia-Practica3\obj\Debug\net6.0-windows\Ejercicio3.g.cs
+C:\Users\Magaly-PC\source\repos\SantiagoSarabia-Practica3\SantiagoSarabia-Practica3\obj\Debug\net6.0-windows\Ejercicio3.baml
+C:\Users\Magaly-PC\source\repos\SantiagoSarabia-Practica3\SantiagoSarabia-Practica3\obj\Debug\net6.0-windows\Ejercicio4.g.cs
+C:\Users\Magaly-PC\source\repos\SantiagoSarabia-Practica3\SantiagoSarabia-Practica3\obj\Debug\net6.0-windows\Ejercicio4.baml
