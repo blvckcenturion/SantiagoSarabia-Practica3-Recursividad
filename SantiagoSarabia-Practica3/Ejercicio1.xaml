@@ -1,0 +1,25 @@
+﻿<Window x:Class="SantiagoSarabia_Practica3.Ejercicio1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SantiagoSarabia_Practica3"
+        mc:Ignorable="d"
+        Title="Ejercicio1" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="287*"/>
+            <ColumnDefinition Width="113*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="345,49,0,0" TextWrapping="Wrap" Text="Ejercicio 1" VerticalAlignment="Top" Foreground="#FF0E33FF" FontSize="25"/>
+        <TextBox x:Name="txtInitialAmount" HorizontalAlignment="Left" Margin="156,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90" Height="24" FontSize="10"/>
+        <TextBlock x:Name="a" HorizontalAlignment="Left" Margin="30,112,0,0" TextWrapping="Wrap" Text="Monto Inicial" VerticalAlignment="Top" Foreground="#FF0E33FF" FontSize="18" Height="24"/>
+        <TextBox x:Name="txtInterestRate" HorizontalAlignment="Left" Margin="410,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90" Height="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="287,112,0,0" TextWrapping="Wrap" Text="% de Interes" VerticalAlignment="Top" Foreground="#FF0E33FF" FontSize="18" Height="24"/>
+        <TextBox x:Name="txtYears" HorizontalAlignment="Center" Margin="0,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90" Height="24" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF0E33FF" FontSize="18" Height="24" Grid.Column="1"><Run Text="A"/><Run Language="es-es" Text="ñ"/><Run Text="os"/></TextBlock>
+        <ListView x:Name="resultView" Margin="113,178,113,48" Grid.ColumnSpan="2"/>
+        <Button Grid.Column="1" Content="Calcular" HorizontalAlignment="Left" Margin="68,33,0,0" VerticalAlignment="Top" Width="117" Height="49" Background="#FF0E33FF" Click="Button_Click" Foreground="White"/>
+
+    </Grid>
+</Window>

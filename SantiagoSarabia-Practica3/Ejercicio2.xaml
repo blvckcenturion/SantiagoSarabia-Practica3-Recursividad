@@ -1,0 +1,17 @@
+﻿<Window x:Class="SantiagoSarabia_Practica3.Ejercicio2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SantiagoSarabia_Practica3"
+        mc:Ignorable="d"
+        Title="Ejercicio2" Height="450" Width="800">
+    <Grid>
+        <TextBlock Margin="365,48,292,0" TextWrapping="Wrap" Text="Ejercicio 2" VerticalAlignment="Top" Foreground="#FF0E33FF" FontSize="25"/>
+        <TextBox x:Name="txtMessage" HorizontalAlignment="Left" Margin="242,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="246" BorderBrush="#FF0E33FF" Height="30"/>
+        <TextBlock Margin="87,102,602,0" TextWrapping="Wrap" Text="Mensaje" VerticalAlignment="Top" Foreground="#FF0E33FF" FontSize="18" Height="30"/>
+        <ListView x:Name="msgView"  Margin="82,161,80,37"/>
+        <Button Content="Calcular" HorizontalAlignment="Left" Margin="548,102,0,0" VerticalAlignment="Top" Width="172" Height="30" Background="#FF0E33FF" Foreground="White" Click="Button_Click" />
+
+    </Grid>
+</Window>
