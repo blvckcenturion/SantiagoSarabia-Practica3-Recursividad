@@ -29,7 +29,9 @@ namespace SantiagoSarabia_Practica3
             msgView.Items.Clear();
             verifyPalindrome(txtString.Text);
         }
-
+        // #1 SAPO -> 4 | str[0] = S -> str[4-1 =3] = O
+        // #2 BLB 
+        // #3 L  
         bool verifyPalindrome(string str)
         {
             if (str.Length == 0 || str.Length == 1) {

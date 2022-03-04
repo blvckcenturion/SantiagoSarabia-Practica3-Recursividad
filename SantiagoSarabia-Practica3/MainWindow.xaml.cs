@@ -44,5 +44,30 @@ namespace SantiagoSarabia_Practica3
         {
             new Ejercicio4().Show();
         }
+
+        private void btn1_Copy3_Click(object sender, RoutedEventArgs e)
+        {
+            new Ejercicio5().Show();
+        }
+
+        private void btn1_Copy4_Click(object sender, RoutedEventArgs e)
+        {
+            new Ejercicio6().Show();
+        }
+
+        private void btn1_Copy5_Click(object sender, RoutedEventArgs e)
+        {
+            new Ejercicio7().Show();
+        }
+
+        private void btn1_Copy7_Click(object sender, RoutedEventArgs e)
+        {
+            new Ejercicio9().Show();
+        }
+
+        private void btn1_Copy6_Click(object sender, RoutedEventArgs e)
+        {
+            new Ejercicio8().Show();
+        }
     }
 }

@@ -39,10 +39,15 @@ namespace SantiagoSarabia_Practica3
         int SumNums(int num)
         {
             if (num == 0) return 0;
-            int numRes = SumNums(num - 1);
-            int res = numRes + num;
-            msgView.Items.Add(numRes + "+" + num + "=" +res);
-            return res;
+            int numRes;
+            if (num % 2 == 0)
+            {
+                numRes = SumNums(num - 2);
+                int res = numRes + num;
+                msgView.Items.Add(numRes + "+" + num + "=" + res);
+                return res;
+            }
+            return SumNums(num - 1);
         }
 
     }

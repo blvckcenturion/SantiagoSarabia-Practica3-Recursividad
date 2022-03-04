@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Magaly-PC\\.nuget\\packages\\": {},
+    "C:\\Users\\blvck\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Magaly-PC\\source\\repos\\SantiagoSarabia-Practica3\\SantiagoSarabia-Practica3\\SantiagoSarabia-Practica3.csproj",
+      "projectUniqueName": "C:\\Users\\blvck\\Source\\Repos\\SantiagoSarabia-Practica3-Recursividad\\SantiagoSarabia-Practica3\\SantiagoSarabia-Practica3.csproj",
       "projectName": "SantiagoSarabia-Practica3",
-      "projectPath": "C:\\Users\\Magaly-PC\\source\\repos\\SantiagoSarabia-Practica3\\SantiagoSarabia-Practica3\\SantiagoSarabia-Practica3.csproj",
-      "packagesPath": "C:\\Users\\Magaly-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Magaly-PC\\source\\repos\\SantiagoSarabia-Practica3\\SantiagoSarabia-Practica3\\obj\\",
+      "projectPath": "C:\\Users\\blvck\\Source\\Repos\\SantiagoSarabia-Practica3-Recursividad\\SantiagoSarabia-Practica3\\SantiagoSarabia-Practica3.csproj",
+      "packagesPath": "C:\\Users\\blvck\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\blvck\\Source\\Repos\\SantiagoSarabia-Practica3-Recursividad\\SantiagoSarabia-Practica3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Magaly-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\blvck\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

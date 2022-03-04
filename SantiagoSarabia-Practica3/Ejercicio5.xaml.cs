@@ -22,6 +22,16 @@ namespace SantiagoSarabia_Practica3
         public Ejercicio5()
         {
             InitializeComponent();
+            msgView.Items.Add("El resultado de Q(3,2) es:" + Q(3, 2));
         }
+        // a = 3, b = 2
+        // #1 0 + 1
+        // #2 0
+        int Q(int a, int b)
+        {
+            if (a < b) return 0;
+            return Q(a - b, b) + 1;
+        }
+
     }
 }

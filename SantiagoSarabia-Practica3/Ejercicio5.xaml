@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Ejercicio5" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock Margin="365,48,292,0" TextWrapping="Wrap" Text="Ejercicio 5" VerticalAlignment="Top" Foreground="#FF0E33FF" FontSize="25"/>
+        <ListView x:Name="msgView" Margin="82,125,80,37"/>
     </Grid>
 </Window>

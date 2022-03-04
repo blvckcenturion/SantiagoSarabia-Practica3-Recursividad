@@ -22,6 +22,15 @@
     <Compile Update="Ejercicio5.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Ejercicio6.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio7.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ejercicio8.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Ejercicio1.xaml">
@@ -37,6 +46,15 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Ejercicio5.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ejercicio6.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ejercicio7.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ejercicio8.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
