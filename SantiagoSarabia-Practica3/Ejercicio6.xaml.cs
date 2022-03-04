@@ -24,19 +24,17 @@ namespace SantiagoSarabia_Practica3
             // Funcion para encontrar los factores de un numero
             InitializeComponent();
         }
-        // 10, 2
-        // #1 10,2 > 1 -> 10 % 2 == 0 -> print(2)
-        // #2 5,2 > 1 -> 5 % 2 == 0 -> 
-        // #3 5,3 
-        // #4 5,4
-        // #5 5,5 > 1 -> 5 % 5 == 0 -> print(5)
-        // #5 1,5
-
         
+        // Funcion recursiva para encontrar los factores de num con valor inicial a verificar div
         void findFactorsOf(int num, int div)
         {
+            // Verificamos si el numero es mayor a 1
             if (num > 1)
             {
+                // Verificamos si el resto de num entre div es 0
+                // Si es verdadero entonces agregamos el valor de div al ListView
+                // Volvemos a ejecutar la funcion pasando num entre div como parametro num
+                // Caso contrario ejecutamos la funcion pasando num y div + 1 como parametro div
                 if (num % div == 0)
                 {
                     msgView.Items.Add(div);
@@ -47,16 +45,19 @@ namespace SantiagoSarabia_Practica3
                 }
             }
         }
-        
+        // Boton encontrar
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            // Limpiamos el ListView
             msgView.Items.Clear();
+            // Realizamos la verificacion para nuestro textbox
             int num;
             bool isValid = int.TryParse(txtNum.Text, out num);
+            // Si el numero es valido realizamos la ejecucion de la funcion recursiva
             if(isValid)
             {
                 msgView.Items.Add("Los factores de " + num + " son:");
-                findFactorsOf(num, 1);
+                findFactorsOf(num, 2);
             }
         }
     }

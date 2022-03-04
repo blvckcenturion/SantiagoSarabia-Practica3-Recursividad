@@ -29,7 +29,7 @@ namespace SantiagoSarabia_Practica3
         {
             if (monthsNum == 1) return;
             int totalPairs = currentCount + pastCount;
-            msgView.Items.Add("Mes " + (initialMonths-monthsNum +2) + ":" + totalPairs + " Parejas");
+            msgView.Items.Add(totalPairs + " Parejas");
             findTotalPairs(monthsNum - 1, totalPairs, currentCount, initialMonths);
         }
 

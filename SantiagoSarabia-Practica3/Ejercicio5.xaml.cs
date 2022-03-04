@@ -19,17 +19,19 @@ namespace SantiagoSarabia_Practica3
     /// </summary>
     public partial class Ejercicio5 : Window
     {
+        // Ejecutamos la funcion recursiva en el constructor.
         public Ejercicio5()
         {
             InitializeComponent();
+            // Agregamos el resultado a el ListView
             msgView.Items.Add("El resultado de Q(3,2) es:" + Q(3, 2));
         }
-        // a = 3, b = 2
-        // #1 0 + 1
-        // #2 0
+        // Funcion recursiva Q
         int Q(int a, int b)
         {
+            // Si a < b retornamos 0
             if (a < b) return 0;
+            // Caso contrario retornamos la ejecucion modificando el parametro a, restandole b al valor de a y sumandole 1 al final
             return Q(a - b, b) + 1;
         }
 
