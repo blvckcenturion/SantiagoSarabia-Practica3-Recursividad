@@ -19,8 +19,11 @@ namespace SantiagoSarabia_Practica3
     /// </summary>
     public partial class Ejercicio9 : Window
     {
+        // RESULTADO: Pasado un año entero, el granjero podrá poner a disposición del mercado un total de 144 parejas de conejos o 288 conejos.
+
         public Ejercicio9()
         {
+
             InitializeComponent();
             findTotalPairs(12,1,0,12);
         }

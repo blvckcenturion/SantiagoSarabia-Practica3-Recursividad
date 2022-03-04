@@ -19,6 +19,8 @@ namespace SantiagoSarabia_Practica3
     /// </summary>
     public partial class Ejercicio6 : Window
     {
+        //RESULTADO: El algoritmo propuesto en el ejercicio 6, es una función que encuentra los factores de un numero haciendo uso de la recursión, por lo tanto el nombre adecuado para la función seria EncontrarFactoresDe() o FindFactorsOf()
+
         public Ejercicio6()
         {
             // Funcion para encontrar los factores de un numero

@@ -19,6 +19,13 @@ namespace SantiagoSarabia_Practica3
     /// </summary>
     public partial class Ejercicio7 : Window
     {
+
+        // RESULTADO 
+        // En el ejercicio numero 7 la función nos da como resultado:
+        // 1.	Para todos los valores inferiores a 101, el numero 91
+        // 2.	Para todos los valores superiores a 101, el valor del numero – 10, por ejemplo x: 104 devuelve 94 y así sucesivamente.
+
+
         public Ejercicio7()
         {
             InitializeComponent();

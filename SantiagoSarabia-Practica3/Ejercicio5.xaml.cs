@@ -19,6 +19,9 @@ namespace SantiagoSarabia_Practica3
     /// </summary>
     public partial class Ejercicio5 : Window
     {
+
+        // RESULTADO: El valor de Q(3,2) es 1
+
         // Ejecutamos la funcion recursiva en el constructor.
         public Ejercicio5()
         {
